@@ -18,10 +18,52 @@
 }
 
 .header__logo {
-    
-    color:red;
+
+    color:white;
 }
 
-.mymy {
-    color: green;
+.header__search {
+    display: flex;
+    align-items: center;
+}
+
+.header__searchInput {
+    width: 500px;
+    height: 20px;
+
+    padding: 0 20px;
+
+}
+
+.header__searchIcon {
+
+}
+
+.header__nav {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.header__navItem {
+    display: flex;
+    margin: 0 10px;
+    flex-direction: column;
+    color: white;
+}
+
+.header__navOption_top {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+
+.header__navOption_bottom {
+    font-size: 10px;
+
+}
+
+.header__checkout {
+    margin: 0;
+    text-align: left;
 }
