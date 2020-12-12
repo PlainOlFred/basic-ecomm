@@ -1,0 +1,27 @@
+.header {
+    /* Box-model */
+    height: 80px;
+    display: flex;
+    
+     /* Positioning */
+     position: sticky;
+     top: 0;
+     z-index: 99;
+
+    /* Typography */
+    justify-content: space-around;
+    align-items: center;
+  
+
+    /* Visual */
+    background-color: blueviolet;
+}
+
+.header__logo {
+    
+    color:red;
+}
+
+.mymy {
+    color: green;
+}
