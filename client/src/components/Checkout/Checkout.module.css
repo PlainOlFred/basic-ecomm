@@ -1,0 +1,21 @@
+.chekcout {
+
+}
+
+.checkout__container {
+    display: flex;
+}
+
+.checkout__items {
+    flex: 2;
+    background-color: aliceblue;
+
+}
+
+.checkout__items > h1 {
+    background-color: aliceblue;
+}
+
+.checkout__summary {
+    flex: 1
+}

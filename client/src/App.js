@@ -8,6 +8,7 @@ import {
 
 import Header from "./components/Header/Header";
 import HomePage from "./containers/HomePage";
+import CheckoutPage from "./containers/CheckoutPage";
 
 function App() {
   return (
@@ -16,7 +17,7 @@ function App() {
         <Header />
         <Switch>
           <Route path='/cart'>
-            <h1>CArt</h1>
+            <CheckoutPage />
           </Route>
           <Route path='/'>
             <HomePage />
