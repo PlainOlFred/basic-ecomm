@@ -1,0 +1,11 @@
+.cartItem {
+    width: 80%;
+    display: flex;
+    justify-content: space-around;
+
+    margin: 0 auto;
+    margin-bottom: 5px;
+    padding: 5px;
+
+    border: 1px solid blueviolet;
+}
